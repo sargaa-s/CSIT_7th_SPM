@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hello, World!</h1>
+    <p>Welcome to a simple HTML page.</p>
+    <button onclick="sayHello()">Click Me</button>
+    <p id="output"></p>
+
+    <script>
+        function sayHello() {
+            document.getElementById("output").textContent = "You clicked the button!";
+        }
+    </script>
+
+</body>
+</html>
